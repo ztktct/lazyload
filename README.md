@@ -30,11 +30,11 @@ img[imgloading]{
     /* 加载中样式 */
     /* your style */
 }	
-img[loaded]{
+img[imgloaded]{
     /* 加载结束样式 */
     /* your style */
 }		
-img[error]{ 
+img[imgerror]{ 
     /* 加载失败样式 */
     /* your style */
 }		

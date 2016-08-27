@@ -7,7 +7,7 @@
  * offset: 200,					// 提前多少距离开始出现
  * watch: false,				// 是否开启观察，开启后动态添加的图片也能懒加载
  * error: DEFAULT_URL,			// 图片加载错误之后显示的图片
- * loading: DEFAULT_URL, 		// 图片加载中显示的图片(暂时无用)
+ * loading: DEFAULT_URL, 		// 图片加载中显示的图片
  * state:{						// 图片对应状态时拥有的属性名
  * 		loading: 'imgloading',	// 图片加载中	
  * 	 	loaded : 'imgloaded',	// 图片加载完毕
@@ -58,7 +58,7 @@ class Lazyload{
 			offset: 200,				// 提前多少距离开始出现
 			watch: false,				// 是否开启观察，开启后动态添加的图片也能懒加载
 			error: DEFAULT_URL,			// 图片加载错误之后显示的图片
-			loading: DEFAULT_URL, 		// 图片加载中显示的图片(暂时无用)
+			loading: DEFAULT_URL, 		// 图片加载中显示的图片
 			state:{						// 图片对应状态时拥有的属性名
 				loading: 'imgloading',	// 图片加载中	
 				loaded : 'imgloaded',	// 图片加载完毕
