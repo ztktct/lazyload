@@ -1,0 +1,27 @@
+*{margin:0;padding:0;}
+
+@keyframes fadeIn{
+    from{opacity:0;}
+    to{opacity:1;}
+}
+
+.lists{
+    &-item{
+        border:1px solid #ccc;
+        box-shadow:0 0 5px #999;
+        padding:10px;
+        width:90%;
+        margin: 0 auto 10px;
+        box-sizing:border-box;
+        img{
+            width:100%; 
+        }
+        img[imgloaded]{
+            animation-duration: .5s;
+            animation-fill-mode: both;
+            animation-timing-function: ease;
+            animation-name: fadeIn;
+        }
+    } 
+}
+
